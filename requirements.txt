@@ -7,3 +7,4 @@ missingno==0.5.2
 plotly_express==0.4.1
 opencv-python==4.10.0.84
 pytesseract==0.3.13
+wordcloud==1.9.3
