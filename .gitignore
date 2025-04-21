@@ -1,1 +1,4 @@
 .idea/
+.env
+fine-tuning/data
+fine-tuning/outputs
