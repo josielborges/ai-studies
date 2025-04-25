@@ -23,7 +23,7 @@ def load_images_from_folder(folder):
     return known_face_encodings, known_face_names
 
 def main():
-    known_face_encodings, known_face_names = load_images_from_folder("data/faces")
+    known_face_encodings, known_face_names = load_images_from_folder("../data/faces")
 
     cap = cv2.VideoCapture(0, cv2.CAP_V4L2)
 

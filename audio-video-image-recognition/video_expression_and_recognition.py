@@ -98,10 +98,10 @@ def detect_faces_and_emotions(video_path, output_path, known_face_encodings, kno
 if __name__ == '__main__':
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_video_path = os.path.join(script_dir, 'input_video.mp4')
-    output_video_path = os.path.join(script_dir, 'output_video_recognition.mp4')
+    input_video_path = os.path.join(script_dir, 'data/input_video.mp4')
+    output_video_path = os.path.join(script_dir, 'data/output_video_recognition.mp4')
 
-    known_face_encodings, known_face_names = load_images_from_folder("data/faces")
+    known_face_encodings, known_face_names = load_images_from_folder("../data/faces")
 
     detect_faces_and_emotions(input_video_path, output_video_path, known_face_encodings, known_face_names)
 

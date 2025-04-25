@@ -48,8 +48,8 @@ def detect_emotions(video_path, output_path):
 if __name__ == '__main__':
 
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    input_video_path = os.path.join(script_dir, 'input_video.mp4')
-    output_video_path = os.path.join(script_dir, 'output_video.mp4')
+    input_video_path = os.path.join(script_dir, 'data/input_video.mp4')
+    output_video_path = os.path.join(script_dir, 'data/output_video.mp4')
 
     detect_emotions(input_video_path, output_video_path)
 
