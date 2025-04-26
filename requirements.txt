@@ -23,6 +23,7 @@ mediapipe==0.10.21
 moviepy==2.1.2
 SpeechRecognition==3.14.2
 pydub==0.25.1
+gensim==4.3.3
 
 # Fine tuning
 xformers==0.0.29.post2
